@@ -1,0 +1,62 @@
+.ship-containers {
+  width: 500px;
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+/* submarine styling: 3 hit markers*/
+.submarine {
+  background-color: green;
+}
+
+.submarine-size {
+  width: 30px;
+  height: 10px;
+  margin: 1px;
+}
+
+/* carrier styling: 5 hit markers*/
+.carrier {
+  background-color: blue;
+}
+
+.carrier-size {
+  width: 50px;
+  height: 10px;
+  margin: 1px;
+}
+
+/* battleship styling: 4 hit markers*/
+.battleship {
+  background-color: red;
+}
+
+.battleship-size {
+  width: 40px;
+  height: 10px;
+  margin: 1px;
+}
+
+/* cruiser styling: 3 hit markers*/
+.cruiser {
+  background-color: orange;
+}
+
+.cruiser-size {
+  width: 30px;
+  height: 10px;
+  margin: 1px;
+}
+
+/* destroyer styling: 2 hit markers*/
+.destroyer {
+  background-color: purple;
+}
+
+.destroyer-size {
+  width: 20px;
+  height: 10px;
+  margin: 1px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="game-info">
+      <p>Turn: <span id="player-turn"></span></p>
+      <p>Info: <span if="info"></span></p>
+    </div>
+
+    <div id="board-container"></div>
+
+    <div class="ship-containers">
+      <div class="destroyer destroyer-size" draggable="true"></div>
+      <div class="carrier carrier-size" draggable="true"></div>
+      <div class="cruiser cruiser-size" draggable="true"></div>
+      <div class="submarine submarine-size" draggable="true"></div>
+      <div class="battleship battleship-size" draggable="true"></div>
+    </div>
+  </body>
+</html>
